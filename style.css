@@ -1,0 +1,51 @@
+
+/*GENERELLE INDSTILLINGER */
+body {
+    background-color: #E9D2B4;
+    margin: 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/**************** FONTS ***************/
+h1 {
+    font-family: Ribeye Marrow, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/*************** NavigationBar styling****************/
+
+#NavWeb{
+    display: none;
+}
+
+/* MOBIL */
+
+/* Nav container */
+#NavMobile{
+display:flex; /* Gør så flex virker (sætter det op på en linje)*/
+flex-wrap: nowrap; /* Gør at det IKKE wrapper ned */
+justify-content: space-between; /* Sætter elementerne i hver sin ende */
+align-items: center; /* Gør så de lægger i midten af hianden */
+background-color: #F2EEEB; /* Ændre baggrundsfarven*/
+
+/* Mobil logo og burgermenu */
+}
+#NavMobile img{
+    width: 45px;
+    padding: 5px;
+}
+
+
+
+
